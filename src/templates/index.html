@@ -1,0 +1,12 @@
+
+{%extends "layout.html"%}
+
+{%block content%}
+    <h1>Hola Mundo</h1>
+    {{titulo}}
+            <!--JINJA, recorrer los parametros de una lista-->
+            {% for val in list %} 
+                <p>{{val}}</p>
+            {%endfor%}
+{%endblock%}
+            
